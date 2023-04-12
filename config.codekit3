@@ -9,12 +9,12 @@
   ],
   "creatorBuild" : "34472",
   "files" : {
-    "\/Assets\/about-left.jpg" : {
+    "\/Assets\/1.JPG" : {
       "ft" : 16384,
-      "iS" : 240900,
+      "iS" : 4375943,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assets\/about-left.jpg",
+      "oAP" : "\/Assets\/1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -22,12 +22,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assets\/about.jpg" : {
+    "\/Assets\/2.JPG" : {
       "ft" : 16384,
-      "iS" : 252641,
+      "iS" : 8657207,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assets\/about.jpg",
+      "oAP" : "\/Assets\/2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -35,52 +35,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assets\/Andriod.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/Assets\/Andriod.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/Assets\/Apple.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/Assets\/Apple.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/Assets\/aws.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/Assets\/aws.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/Assets\/Google.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/Assets\/Google.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/Assets\/hero-2.jpg" : {
+    "\/Assets\/3.JPG" : {
       "ft" : 16384,
-      "iS" : 1003073,
+      "iS" : 9015930,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assets\/hero-2.jpg",
+      "oAP" : "\/Assets\/3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -88,12 +48,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assets\/hero.jpg" : {
+    "\/Assets\/4.JPG" : {
       "ft" : 16384,
-      "iS" : 479600,
+      "iS" : 4276290,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assets\/hero.jpg",
+      "oAP" : "\/Assets\/4.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -101,39 +61,196 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Assets\/In-class-S23.fig" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
+    "\/Assets\/5.JPG" : {
+      "ft" : 16384,
+      "iS" : 7332001,
+      "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/Assets\/In-class-S23.fig",
-      "oF" : 0
+      "oAP" : "\/Assets\/5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
-    "\/Assets\/logo.svg" : {
+    "\/Assets\/6.JPG" : {
+      "ft" : 16384,
+      "iS" : 3671917,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/7.JPG" : {
+      "ft" : 16384,
+      "iS" : 7651390,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/7.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/9.JPG" : {
+      "ft" : 16384,
+      "iS" : 7343657,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/9.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/10.JPG" : {
+      "ft" : 16384,
+      "iS" : 6501497,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/10.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/Athelete_Icon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Assets\/logo.svg",
+      "oAP" : "\/Assets\/Athelete_Icon.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/Assets\/MS.svg" : {
+    "\/Assets\/Facebook.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Assets\/MS.svg",
+      "oAP" : "\/Assets\/Facebook.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/Assets\/reddit.svg" : {
+    "\/Assets\/Footer_CAA.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/Assets\/reddit.svg",
+      "oAP" : "\/Assets\/Footer_CAA.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Assets\/Footer_Drexel.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/Footer_Drexel.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Assets\/Footer_EIWA.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/Footer_EIWA.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Assets\/Footer_Flosports.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/Footer_Flosports.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Assets\/Footer_NCAA.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/Footer_NCAA.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Assets\/Footer_Sideline.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/Footer_Sideline.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Assets\/Gear_Icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/Gear_Icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Assets\/Instagram.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/Instagram.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Assets\/Logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/Logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Assets\/Twitter.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/Twitter.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/Assets\/Youtube.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/Youtube.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -358,6 +475,17 @@
       "oA" : 0,
       "oAP" : "\/deploy\/index.html",
       "oF" : 2
+    },
+    "\/dev\/js\/scripts-min-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/scripts-min-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 0,
