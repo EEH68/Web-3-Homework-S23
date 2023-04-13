@@ -9,19 +9,6 @@
   ],
   "creatorBuild" : "34472",
   "files" : {
-    "\/Assets\/1.JPG" : {
-      "ft" : 16384,
-      "iS" : 4375943,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/Assets\/1.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/Assets\/2.JPG" : {
       "ft" : 16384,
       "iS" : 8657207,
@@ -216,6 +203,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/Assets\/Hero.JPG" : {
+      "ft" : 16384,
+      "iS" : 4375943,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/Hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/Assets\/Instagram.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -268,12 +268,122 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/deploy\/img\/about\/about-left.jpg" : {
+    "\/deploy\/img\/Footer Logos\/Footer_CAA.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Footer Logos\/Footer_CAA.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Footer Logos\/Footer_Drexel.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Footer Logos\/Footer_Drexel.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Footer Logos\/Footer_EIWA.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Footer Logos\/Footer_EIWA.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Footer Logos\/Footer_Flosports.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Footer Logos\/Footer_Flosports.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Footer Logos\/Footer_NCAA.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Footer Logos\/Footer_NCAA.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Footer Logos\/Footer_Sideline.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Footer Logos\/Footer_Sideline.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Footer Social Media\/Facebook.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Footer Social Media\/Facebook.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Footer Social Media\/Instagram.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Footer Social Media\/Instagram.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Footer Social Media\/Twitter.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Footer Social Media\/Twitter.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Footer Social Media\/Youtube.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Footer Social Media\/Youtube.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Global\/Logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Global\/Logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Heroes\/2.JPG" : {
       "ft" : 16384,
-      "iS" : 240900,
+      "iS" : 8657207,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/about\/about-left.jpg",
+      "oAP" : "\/deploy\/img\/Heroes\/2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -281,22 +391,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/global\/logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/global\/logo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/heroes\/hero-2.jpg" : {
+    "\/deploy\/img\/Heroes\/3.JPG" : {
       "ft" : 16384,
-      "iS" : 1003073,
+      "iS" : 9015930,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/heroes\/hero-2.jpg",
+      "oAP" : "\/deploy\/img\/Heroes\/3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -304,12 +404,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/heroes\/hero.jpg" : {
+    "\/deploy\/img\/Heroes\/4.JPG" : {
       "ft" : 16384,
-      "iS" : 479600,
+      "iS" : 4276290,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/heroes\/hero.jpg",
+      "oAP" : "\/deploy\/img\/Heroes\/4.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -317,61 +417,99 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/partners\/android.svg" : {
+    "\/deploy\/img\/Heroes\/Hero.JPG" : {
+      "ft" : 16384,
+      "iS" : 4375943,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/Heroes\/Hero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/News\/5.JPG" : {
+      "ft" : 16384,
+      "iS" : 7332001,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/News\/5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/News\/6.JPG" : {
+      "ft" : 16384,
+      "iS" : 3671917,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/News\/6.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/News\/7.JPG" : {
+      "ft" : 16384,
+      "iS" : 7651390,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/News\/7.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/News\/9.JPG" : {
+      "ft" : 16384,
+      "iS" : 7343657,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/News\/9.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/News\/10.JPG" : {
+      "ft" : 16384,
+      "iS" : 6501497,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/News\/10.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/Roster:Gear\/Athelete_Icon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/partners\/android.svg",
+      "oAP" : "\/deploy\/img\/Roster:Gear\/Athelete_Icon.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/partners\/apple.svg" : {
+    "\/deploy\/img\/Roster:Gear\/Gear_Icon.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/img\/partners\/apple.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/partners\/aws.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/partners\/aws.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/partners\/google.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/partners\/google.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/partners\/ms.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/partners\/ms.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/deploy\/img\/partners\/reddit.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/deploy\/img\/partners\/reddit.svg",
+      "oAP" : "\/deploy\/img\/Roster:Gear\/Gear_Icon.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -396,22 +534,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/dev\/content\/about.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/about.html",
-      "oF" : 0
-    },
-    "\/dev\/content\/hero-2.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/content\/hero-2.html",
-      "oF" : 0
-    },
     "\/dev\/content\/hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -420,20 +542,28 @@
       "oAP" : "\/dev\/content\/hero.html",
       "oF" : 0
     },
-    "\/dev\/content\/partners.kit" : {
+    "\/dev\/content\/photos.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/partners.html",
+      "oAP" : "\/dev\/content\/photos.html",
       "oF" : 0
     },
-    "\/dev\/content\/request.kit" : {
+    "\/dev\/content\/roster_gear.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/request.html",
+      "oAP" : "\/dev\/content\/roster_gear.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/whats_new.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/whats_new.html",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {
@@ -464,7 +594,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/global\/scripts.html",
       "oF" : 0
     },
