@@ -332,7 +332,8 @@ template {
 }
 
 .header-logo {
-  width: 40%;
+  width: 88px;
+  height: 77px;
 }
 
 .news-images {
