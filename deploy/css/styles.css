@@ -335,6 +335,10 @@ template {
   width: 40%;
 }
 
+.news-images {
+  width: 80%;
+}
+
 /* =============
     Typography
 ============= */
@@ -378,15 +382,51 @@ header > div {
 /* =============
     Footer
 ============= */
+footer {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". footer .";
+  background-color: #07294D;
+}
+footer > div {
+  grid-area: footer;
+}
+
 /* =============
     Heros
 ============= */
+#hero {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". heros .";
+}
+#hero > div {
+  grid-area: heros;
+}
+
 /* =============
     Photos
 ============= */
 /* ===================
     Roster & Gear
 ====================== */
+#roster_gear {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". rostergear .";
+}
+#roster_gear > div {
+  grid-area: rostergear;
+}
+
 /* =============
     Whats New
 ============= */
+#whats_new {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". whatsnew .";
+}
+#whats_new > div {
+  grid-area: whatsnew;
+}
