@@ -2,13 +2,15 @@
     Roster & Gear
 ====================== */
 
-#roster_gear{
+.roster_gear{
+
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". rostergear .";
-    
+
     >div{
-        grid-area: rostergear;
-            
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-area: rostergear ;
             }
 }

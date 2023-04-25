@@ -396,12 +396,12 @@ footer > div {
 /* =============
     Heros
 ============= */
-#hero {
+.hero {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". heros .";
 }
-#hero > div {
+.hero > div {
   grid-area: heros;
 }
 
@@ -411,23 +411,25 @@ footer > div {
 /* ===================
     Roster & Gear
 ====================== */
-#roster_gear {
+.roster_gear {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". rostergear .";
 }
-#roster_gear > div {
+.roster_gear > div {
+  display: grid;
+  grid-template-columns: 50% 50%;
   grid-area: rostergear;
 }
 
 /* =============
     Whats New
 ============= */
-#whats_new {
+.whats_new {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". whatsnew .";
 }
-#whats_new > div {
+.whats_new > div {
   grid-area: whatsnew;
 }
