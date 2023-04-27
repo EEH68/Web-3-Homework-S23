@@ -226,7 +226,7 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/Assets\/Logo.svg" : {
+    "\/Assets\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
@@ -368,7 +368,7 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/deploy\/img\/Global\/Logo.svg" : {
+    "\/deploy\/img\/global\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
@@ -417,7 +417,7 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/Heroes\/Hero.JPG" : {
+    "\/deploy\/img\/Heroes\/hero.jpg" : {
       "ft" : 16384,
       "iS" : 4375943,
       "jF" : 0,
