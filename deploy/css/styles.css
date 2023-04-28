@@ -375,6 +375,13 @@ header {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". header .";
   background-color: #07294D;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  header {
+    grid-template-columns: 12% auto 12%;
+    text-align: left;
+  }
 }
 header > div {
   grid-area: header;
@@ -401,8 +408,18 @@ footer > div {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". heros .";
 }
+@media (min-width: 768px) {
+  .hero {
+    text-align: center;
+    grid-template-columns: 12% auto 12%;
+  }
+}
 .hero > div {
   grid-area: heros;
+}
+
+.centered {
+  text-align: center;
 }
 
 /* =============
@@ -417,8 +434,6 @@ footer > div {
   grid-template-areas: ". rostergear .";
 }
 .roster_gear > div {
-  display: grid;
-  grid-template-columns: 50% 50%;
   grid-area: rostergear;
 }
 
@@ -429,6 +444,18 @@ footer > div {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". whatsnew .";
+}
+@media (min-width: 768px) {
+  .whats_new {
+    grid-template-columns: 12% auto 12%;
+  }
+}
+.whats_new ul {
+  margin: 0;
+  padding: 0;
+}
+.whats_new ul li {
+  list-style: none;
 }
 .whats_new > div {
   grid-area: whatsnew;

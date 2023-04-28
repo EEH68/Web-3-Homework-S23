@@ -7,10 +7,17 @@
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". heros .";
     
+    @include md{
+        text-align: center;
+        grid-template-columns: 12% auto 12%;
+    }
+
     >div{
         grid-area: heros;
             }
 }
 
-
+.centered{
+    text-align: center;
+}
 

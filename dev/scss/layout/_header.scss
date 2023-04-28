@@ -7,9 +7,15 @@ header{
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". header .";
     background-color: #07294D;
+    text-align: center;
+
+    @include md{
+        grid-template-columns: 12% auto 12%;
+        text-align: left;
+    }
 
     >div{
-grid-area: header;
+    grid-area: header;
     
     }
 }
