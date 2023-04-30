@@ -3,7 +3,7 @@
 ============= */
 
 header{
-   display: grid;
+    display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". header .";
     background-color: #07294D;
@@ -16,6 +16,5 @@ header{
 
     >div{
     grid-area: header;
-    
     }
 }
