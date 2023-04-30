@@ -9,9 +9,7 @@
     
     @include md{
         text-align: center;
-        grid-template-columns: 12% auto 12%;
     }
-
     >div{
         grid-area: heros;
             }

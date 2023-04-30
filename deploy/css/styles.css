@@ -411,7 +411,6 @@ footer > div {
 @media (min-width: 768px) {
   .hero {
     text-align: center;
-    grid-template-columns: 12% auto 12%;
   }
 }
 .hero > div {
@@ -433,8 +432,16 @@ footer > div {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". rostergear .";
 }
+@media (min-width: 768px) {
+  .roster_gear {
+    padding: 24px;
+    text-align: center;
+    grid-template-columns: 50% 50%;
+  }
+}
 .roster_gear > div {
   grid-area: rostergear;
+  gap: 24px;
 }
 
 /* =============
@@ -445,18 +452,44 @@ footer > div {
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". whatsnew .";
 }
-@media (min-width: 768px) {
-  .whats_new {
-    grid-template-columns: 12% auto 12%;
-  }
-}
-.whats_new ul {
-  margin: 0;
-  padding: 0;
-}
-.whats_new ul li {
-  list-style: none;
-}
 .whats_new > div {
   grid-area: whatsnew;
+}
+.whats_new > div ul {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 24px;
+}
+@media (min-width: 768px) {
+  .whats_new > div ul {
+    grid-template-columns: repeat(3 1fr) grid-template-areas;
+  }
+  .whats_new > div ul #N1 {
+    grid-area: N1;
+  }
+  .whats_new > div ul #N2 {
+    grid-area: N2;
+  }
+  .whats_new > div ul #N3 {
+    grid-area: N3;
+  }
+  .whats_new > div ul #N4 {
+    grid-area: N4;
+  }
+  .whats_new > div ul #N5 {
+    grid-area: N5;
+  }
+  .whats_new > div ul #N6 {
+    grid-area: N6;
+  }
+  .whats_new > div ul #N7 {
+    grid-area: N7;
+  }
+}
+.whats_new > div ul li {
+  list-style: none;
+  background-color: aqua;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
