@@ -424,15 +424,6 @@ footer > div {
 /* =============
     Photos
 ============= */
-#photos {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". photos .";
-}
-#photos > div {
-  grid-area: photos;
-}
-
 /* ===================
     Roster & Gear
 ====================== */
@@ -463,37 +454,4 @@ footer > div {
 }
 .whats_new > div {
   grid-area: whatsnew;
-}
-.whats_new > div ul {
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 24px;
-}
-.whats_new > div li {
-  list-style: none;
-  background-color: aqua;
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-.whats_new > div #N1 {
-  grid-area: N1;
-}
-.whats_new > div #N2 {
-  grid-area: N2;
-}
-.whats_new > div #N3 {
-  grid-area: N3;
-}
-.whats_new > div #N4 {
-  grid-area: N4;
-}
-.whats_new > div #N5 {
-  grid-area: N5;
-}
-.whats_new > div #N6 {
-  grid-area: N6;
-}
-.whats_new > div #N7 {
-  grid-area: N7;
 }

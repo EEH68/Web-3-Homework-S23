@@ -3,11 +3,4 @@
 ============= */
 
 #photos{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". photos .";
-
-    >div{
-        grid-area: photos;
-    }
 }
