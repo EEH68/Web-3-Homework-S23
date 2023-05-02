@@ -471,17 +471,17 @@ footer > div {
   padding: 0;
   display: grid;
   gap: 24px;
-  /* @include xl{
-   grid-template-columns: repeat(6, 1fr);
-   grid-template-areas:
-   "n1 n1 n2 n2 n3 n3"
-   ". n4 n4 n5 n5 .";
-   } */
 }
 @media (min-width: 768px) {
   .whats_new > div ul {
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "n1 n1 n2 n2" "n3 n3 n4 n4" ". n5 n5 .";
+  }
+}
+@media (min-width: 1200px) {
+  .whats_new > div ul {
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "n1 n1 n2 n2 n3 n3" ". n4 n4 n5 n5 .";
   }
 }
 .whats_new > div ul li {

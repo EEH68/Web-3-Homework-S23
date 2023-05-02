@@ -24,12 +24,12 @@
         ". n5 n5 .";
         } 
 
-       /* @include xl{
+       @include xl{
         grid-template-columns: repeat(6, 1fr);
         grid-template-areas:
         "n1 n1 n2 n2 n3 n3"
         ". n4 n4 n5 n5 .";
-        } */
+        }
 
         li{
             list-style: none;
