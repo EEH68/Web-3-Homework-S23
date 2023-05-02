@@ -4,18 +4,31 @@
 
 .roster_gear{
     display: grid;
-    padding: 16px;
-    grid-template-columns: 50% 50%;
-    gap: 16px;
-
-    @include md{
-        padding: 24px;
-        text-align: center;
-        grid-template-columns: 50% 50%;
-       
-    }
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". rostergear .";
 
     >div{
         grid-area: rostergear;
-            }
+
+        ul{
+            margin: 0;
+            padding: 0;
+            display: grid;
+            gap: 24px;
+            
+        @include md{
+            padding: 24px;
+            text-align: center;
+            grid-template-columns: 50% 50%;
+        }
+
+        li{
+            list-style: none;
+            background-color: #00ffff;
+            padding-bottom: 24px;
+            text-align: left;
+        }   
+        }   
+    
+    }
 }
