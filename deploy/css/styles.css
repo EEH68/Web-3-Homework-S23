@@ -471,39 +471,47 @@ footer > div {
   padding: 0;
   display: grid;
   gap: 24px;
-  /* @include md{
-   grid-template-columns: repeat(4, 1fr);
-   grid-template-areas: 
-   "n1 n1 n2 n2"
-   "n3 n3 n4 n4"
-   ". n5 n5 ."
-   } 
-
   /* @include xl{
    grid-template-columns: repeat(6, 1fr);
    grid-template-areas:
    "n1 n1 n2 n2 n3 n3"
    ". n4 n4 n5 n5 .";
    } */
-  /* #n1{
-       grid-area: n1;
-   }
-   #n2{
-       grid-area: n2;
-   }
-   #n3{
-       grid-area: n3;
-   }
-   #n4{
-       grid-area: n4;
-   }
-   #n5{
-       grid-area: n5;
-   } */
+}
+@media (min-width: 768px) {
+  .whats_new > div ul {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "n1 n1 n2 n2" "n3 n3 n4 n4" ". n5 n5 .";
+  }
 }
 .whats_new > div ul li {
   list-style: none;
   background-color: #00ffff;
   padding-bottom: 24px;
   text-align: left;
+}
+@media (min-width: 768px) {
+  .whats_new > div ul #n1 {
+    grid-area: n1;
+  }
+}
+@media (min-width: 768px) {
+  .whats_new > div ul #n2 {
+    grid-area: n2;
+  }
+}
+@media (min-width: 768px) {
+  .whats_new > div ul #n3 {
+    grid-area: n3;
+  }
+}
+@media (min-width: 768px) {
+  .whats_new > div ul #n4 {
+    grid-area: n4;
+  }
+}
+@media (min-width: 768px) {
+  .whats_new > div ul #n5 {
+    grid-area: n5;
+  }
 }
