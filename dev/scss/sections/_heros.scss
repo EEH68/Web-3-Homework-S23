@@ -2,20 +2,30 @@
     Heros
 ============= */
 
-.hero{
+#hero-top{
     display: grid;
     grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". heros .";
+    grid-template-areas: ". herotop .";
     
     @include md{
         text-align: center;
     }
     >div{
-        grid-area: heros;
+        grid-area: herotop;
+            }       
+}
+
+#hero-bottom{
+    display: grid;
+    grid-template-columns: 16px auto 16px;
+    grid-template-areas: ". herobottom .";
+    background-color: #FFC600;
+    margin-bottom: 24px;
+    
+    @include md{
+        text-align: center;
+    }
+    >div{
+        grid-area: herobottom;
             }
 }
-
-.centered{
-    text-align: center;
-}
-

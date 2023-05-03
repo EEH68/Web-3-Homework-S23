@@ -403,22 +403,34 @@ footer > div {
 /* =============
     Heros
 ============= */
-.hero {
+#hero-top {
   display: grid;
   grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". heros .";
+  grid-template-areas: ". herotop .";
 }
 @media (min-width: 768px) {
-  .hero {
+  #hero-top {
     text-align: center;
   }
 }
-.hero > div {
-  grid-area: heros;
+#hero-top > div {
+  grid-area: herotop;
 }
 
-.centered {
-  text-align: center;
+#hero-bottom {
+  display: grid;
+  grid-template-columns: 16px auto 16px;
+  grid-template-areas: ". herobottom .";
+  background-color: #FFC600;
+  margin-bottom: 24px;
+}
+@media (min-width: 768px) {
+  #hero-bottom {
+    text-align: center;
+  }
+}
+#hero-bottom > div {
+  grid-area: herobottom;
 }
 
 /* =============
