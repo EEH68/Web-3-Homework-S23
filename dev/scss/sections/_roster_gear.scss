@@ -3,32 +3,68 @@
 ====================== */
 
 .roster_gear{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". rostergear .";
+   
+    //display: grid;
+    //grid-template-columns: 16px auto 16px;
+    // grid-template-areas: ". rostergear .";
+    
 
     >div{
-        grid-area: rostergear;
+        //grid-area: rostergear;
 
         ul{
-            margin: 0;
+            margin-top: 24px;
             padding: 0;
             display: grid;
-            gap: 24px;
-            
-        @include md{
-            padding: 24px;
-            text-align: center;
-            grid-template-columns: 50% 50%;
-        }
+            gap: 16px;
 
-        li{
-            list-style: none;
-            background-color: #00ffff;
-            padding-bottom: 24px;
-            text-align: left;
-        }   
+            @include md{
+                grid-template-columns: 50% 50%;
+                gap: 0px;
+            }
+
+            @include xl{
+                margin-left: 225px;
+                margin-right: 225px;
+            }
+        
+            li{
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                background-color: #E0DFD5;
+                padding-bottom: 24px;
+                padding-left: 16px;
+                padding-right: 16px;
+
+                @include md{
+                    margin-top: 30px;
+                    margin-right: 16px;
+                    margin-left: 16px;
+                    margin-bottom: 40px;
+                    padding-left: 24px;
+                    padding-right: 24px;
+                }
+            }
+
+                #s1{
+                    @include xl{
+                    grid-area: s1;
+                }
+                }  
+                #s2{
+                    @include xl{
+                    grid-area: s2;
+                }
+                }  
+
+                button{
+                    background-color:#FFC600;
+                    border: none;
+                    padding: 4px 24px; 
+                    margin-top: 20px;
+                }
+            }   
         }   
     
     }
-}

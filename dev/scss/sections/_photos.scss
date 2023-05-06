@@ -3,4 +3,38 @@
 ============= */
 
 #photos{
+
+    >div{
+
+        ul{
+            margin: 0;
+            padding: 0;
+            display: grid;
+
+            @include md{
+                grid-template-columns: repeat(2, 1fr);
+                grid-template-areas: 
+                "p1 p2"
+                "p3 p3"
+                }
+        
+                #p1{
+                    @include md{
+                    grid-area: p1;
+                }
+                }
+        
+                #p2{
+                    @include md{
+                    grid-area: p2;
+                }
+                }
+        
+                #p3{
+                    @include md{
+                    grid-area: p3;
+                }
+                }
+        }
+    }
 }

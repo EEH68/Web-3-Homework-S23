@@ -3,12 +3,10 @@
 ============= */
 
 #hero-top{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". herotop .";
-    
+    text-align: center;
+
     @include md{
-        text-align: center;
+        //text-align: center;
     }
     >div{
         grid-area: herotop;
@@ -16,12 +14,12 @@
 }
 
 #hero-bottom{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". herobottom .";
     background-color: #FFC600;
-    margin-bottom: 24px;
-    
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 76px;
+    padding-left: 10px;
+
     @include md{
         text-align: center;
     }

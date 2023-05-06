@@ -3,12 +3,19 @@
 ============= */
 
 .whats_new {
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". whatsnew .";
 
     >div{
-        grid-area: whatsnew;
+
+       #news-header{
+        @include md{
+            margin-left: 16px;
+        }
+
+        @include xl{
+            margin-top: 50px;
+            margin-bottom: 16px;
+        }
+       }
 
     ul{
         margin: 0;
@@ -29,13 +36,30 @@
         grid-template-areas:
         "n1 n1 n2 n2 n3 n3"
         ". n4 n4 n5 n5 .";
+        margin-left: 225px;
+        margin-right: 225px;
+        margin-bottom: 50px;
         }
 
         li{
+            
             list-style: none;
-            background-color: #00ffff;
+            background: #FFFFFF;
+            box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
             padding-bottom: 24px;
             text-align: left;
+
+            >aside{
+                margin: 0 16px;
+            }
+            
+
+            button{
+                background-color: #FFC600;
+                border: none;
+                padding: 4px 24px;
+                margin-top: 24px;
+            }
         }
 
         #n1{

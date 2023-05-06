@@ -3,12 +3,16 @@
 ============= */
 
 footer{
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". footer .";
     background-color: #07294D;
-
+    
     >div{
-grid-area: footer;}
 
+        >ul{
+
+            >li{
+            
+            }
+
+        }
+    }
 }

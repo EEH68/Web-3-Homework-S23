@@ -123,6 +123,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/Assets\/Athlete_Icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/Assets\/Athlete_Icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/Assets\/Facebook.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -500,6 +510,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/deploy\/img\/Roster:Gear\/Athelete_Icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/Roster:Gear\/Athlete_Icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/Roster:Gear\/Athlete_Icon.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

@@ -332,12 +332,19 @@ template {
 }
 
 .header-logo {
-  width: 88px;
-  height: 77px;
+  width: 28%;
 }
 
 .news-images {
   width: 80%;
+}
+
+.Roster-Gear-Icons {
+  width: 30%;
+}
+
+.footerlogo {
+  width: 90px;
 }
 
 /* =============
@@ -391,38 +398,24 @@ header > div {
     Footer
 ============= */
 footer {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". footer .";
   background-color: #07294D;
 }
-footer > div {
-  grid-area: footer;
-}
-
 /* =============
     Heros
 ============= */
 #hero-top {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". herotop .";
-}
-@media (min-width: 768px) {
-  #hero-top {
-    text-align: center;
-  }
+  text-align: center;
 }
 #hero-top > div {
   grid-area: herotop;
 }
 
 #hero-bottom {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". herobottom .";
   background-color: #FFC600;
-  margin-bottom: 24px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 76px;
+  padding-left: 10px;
 }
 @media (min-width: 768px) {
   #hero-bottom {
@@ -436,47 +429,103 @@ footer > div {
 /* =============
     Photos
 ============= */
-/* ===================
-    Roster & Gear
-====================== */
-.roster_gear {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". rostergear .";
-}
-.roster_gear > div {
-  grid-area: rostergear;
-}
-.roster_gear > div ul {
+#photos > div ul {
   margin: 0;
   padding: 0;
   display: grid;
-  gap: 24px;
+}
+@media (min-width: 768px) {
+  #photos > div ul {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "p1 p2" "p3 p3";
+  }
+}
+@media (min-width: 768px) {
+  #photos > div ul #p1 {
+    grid-area: p1;
+  }
+}
+@media (min-width: 768px) {
+  #photos > div ul #p2 {
+    grid-area: p2;
+  }
+}
+@media (min-width: 768px) {
+  #photos > div ul #p3 {
+    grid-area: p3;
+  }
+}
+
+/* ===================
+    Roster & Gear
+====================== */
+.roster_gear > div ul {
+  margin-top: 24px;
+  padding: 0;
+  display: grid;
+  gap: 16px;
 }
 @media (min-width: 768px) {
   .roster_gear > div ul {
-    padding: 24px;
-    text-align: center;
     grid-template-columns: 50% 50%;
+    gap: 0px;
+  }
+}
+@media (min-width: 1200px) {
+  .roster_gear > div ul {
+    margin-left: 225px;
+    margin-right: 225px;
   }
 }
 .roster_gear > div ul li {
+  display: flex;
+  justify-content: space-between;
   list-style: none;
-  background-color: #00ffff;
+  background-color: #E0DFD5;
   padding-bottom: 24px;
-  text-align: left;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+@media (min-width: 768px) {
+  .roster_gear > div ul li {
+    margin-top: 30px;
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-bottom: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .roster_gear > div ul #s1 {
+    grid-area: s1;
+  }
+}
+@media (min-width: 1200px) {
+  .roster_gear > div ul #s2 {
+    grid-area: s2;
+  }
+}
+.roster_gear > div ul button {
+  background-color: #FFC600;
+  border: none;
+  padding: 4px 24px;
+  margin-top: 20px;
 }
 
 /* =============
     Whats New
 ============= */
-.whats_new {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". whatsnew .";
+@media (min-width: 768px) {
+  .whats_new > div #news-header {
+    margin-left: 16px;
+  }
 }
-.whats_new > div {
-  grid-area: whatsnew;
+@media (min-width: 1200px) {
+  .whats_new > div #news-header {
+    margin-top: 50px;
+    margin-bottom: 16px;
+  }
 }
 .whats_new > div ul {
   margin: 0;
@@ -494,13 +543,26 @@ footer > div {
   .whats_new > div ul {
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "n1 n1 n2 n2 n3 n3" ". n4 n4 n5 n5 .";
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-bottom: 50px;
   }
 }
 .whats_new > div ul li {
   list-style: none;
-  background-color: #00ffff;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
   padding-bottom: 24px;
   text-align: left;
+}
+.whats_new > div ul li > aside {
+  margin: 0 16px;
+}
+.whats_new > div ul li button {
+  background-color: #FFC600;
+  border: none;
+  padding: 4px 24px;
+  margin-top: 24px;
 }
 @media (min-width: 768px) {
   .whats_new > div ul #n1 {
