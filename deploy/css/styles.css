@@ -332,9 +332,13 @@ template {
 }
 
 .header-logo {
-  width: 28%;
+  width: 88px;
+  height: 77px;
+  width: 90px;
+  height: 100px;
+  width: 120px;
+  height: 130px;
 }
-
 .news-images {
   width: 80%;
 }
@@ -399,6 +403,36 @@ header > div {
 ============= */
 footer {
   background-color: #07294D;
+}
+footer .logos {
+  display: grid;
+  grid-template-columns: repeat(3 1fr);
+  grid-template-areas: "l1 . ." "l2 . l3" "l3 l4 l5";
+}
+@media (min-width: 768px) {
+  footer #l1 {
+    grid-area: l1;
+  }
+}
+@media (min-width: 768px) {
+  footer #l2 {
+    grid-area: l2;
+  }
+}
+@media (min-width: 768px) {
+  footer #l3 {
+    grid-area: l3;
+  }
+}
+@media (min-width: 768px) {
+  footer #l4 {
+    grid-area: l4;
+  }
+}
+@media (min-width: 768px) {
+  footer #l5 {
+    grid-area: l5;
+  }
 }
 /* =============
     Heros
