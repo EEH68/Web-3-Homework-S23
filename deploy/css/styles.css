@@ -385,20 +385,14 @@ textarea {
     Header
 ============= */
 header {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". header .";
   background-color: var(--navy);
   text-align: center;
 }
 @media (min-width: 768px) {
   header {
-    grid-template-columns: 12% auto 12%;
     text-align: left;
+    padding-left: 20px;
   }
-}
-header > div {
-  grid-area: header;
 }
 
 /* =============
@@ -465,26 +459,46 @@ footer #l6 {
 #hero-top {
   text-align: center;
 }
-#hero-top > div {
-  grid-area: herotop;
-}
 
 #hero-bottom {
   background-color: var(--yellow);
-  padding-bottom: 10px;
-  padding-top: 10px;
-  padding-right: 76px;
-  padding-left: 10px;
+  padding-left: 16px;
 }
 @media (min-width: 768px) {
   #hero-bottom {
-    text-align: center;
+    display: grid;
+    grid-template-columns: 33% auto 33%;
+    grid-template-areas: ". herobottom .";
+    padding-left: 0px;
   }
 }
 #hero-bottom > div {
-  grid-area: herobottom;
+  display: grid;
+  grid-template-columns: 90% 10%;
 }
-
+@media (min-width: 768px) {
+  #hero-bottom > div {
+    display: flex;
+    grid-area: herobottom;
+  }
+}
+#hero-bottom > div i {
+  font-size: 35px;
+  padding-top: 50px;
+}
+@media (min-width: 768px) {
+  #hero-bottom > div i {
+    padding-right: 50px;
+  }
+}
+@media (min-width: 1024px) {
+  #hero-bottom > div i {
+    padding-right: 90px;
+  }
+}
+#hero-bottom > div aside {
+  font-size: 15px;
+}
 /* =============
     Photos
 ============= */

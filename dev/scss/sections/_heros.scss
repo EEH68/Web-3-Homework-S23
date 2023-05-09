@@ -4,26 +4,51 @@
 
 #hero-top{
     text-align: center;
-
-    @include md{
-        //text-align: center;
-    }
-    >div{
-        grid-area: herotop;
-            }       
 }
 
 #hero-bottom{
     background-color: var(--yellow);
-    padding-bottom: 10px;
-    padding-top: 10px;
-    padding-right: 76px;
-    padding-left: 10px;
+    // padding-bottom: 10px;
+    // padding-top: 10px;
+    // padding-right: 76px;
+    padding-left: 16px;
 
     @include md{
-        text-align: center;
+        display: grid;
+        grid-template-columns: 33% auto 33%;
+        grid-template-areas: ". herobottom .";
+        padding-left: 0px;
+
     }
+
     >div{
-        grid-area: herobottom;
+        display: grid;
+        grid-template-columns: 90% 10%;
+        @include md{
+            display: flex;
+            grid-area: herobottom;
+        }
+
+        i{
+            font-size: 35px;
+            padding-top: 50px;
+           
+            @include md{
+            padding-right: 50px;
+            // padding-top: 50px;
             }
+            @include lg{
+                padding-right: 90px;
+            }
+        }
+
+        aside{
+        font-size: 15px;
+        @include md{
+            // font-size: 20px;
+        }
+        }
+        
+    
+    }
 }
