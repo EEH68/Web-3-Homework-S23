@@ -32,7 +32,7 @@
                 display: flex;
                 justify-content: space-between;
                 list-style: none;
-                background-color: #E0DFD5;
+                background-color: var(--lightgray);
                 padding-bottom: 24px;
                 padding-left: 16px;
                 padding-right: 16px;
@@ -59,7 +59,7 @@
                 }  
 
                 button{
-                    background-color:#FFC600;
+                    background-color: var(--yellow);
                     border: none;
                     padding: 4px 24px; 
                     margin-top: 20px;

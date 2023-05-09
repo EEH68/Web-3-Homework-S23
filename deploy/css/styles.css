@@ -13,6 +13,9 @@ html {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --navy: #07294D;
+  --yellow: #FFC600;
+  --lightgray: #E0DFD5;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -385,7 +388,7 @@ header {
   display: grid;
   grid-template-columns: 16px auto 16px;
   grid-template-areas: ". header .";
-  background-color: #07294D;
+  background-color: var(--navy);
   text-align: center;
 }
 @media (min-width: 768px) {
@@ -409,31 +412,6 @@ footer .logos {
   grid-template-columns: repeat(3 1fr);
   grid-template-areas: "l1 . ." "l2 . l3" "l3 l4 l5";
 }
-@media (min-width: 768px) {
-  footer #l1 {
-    grid-area: l1;
-  }
-}
-@media (min-width: 768px) {
-  footer #l2 {
-    grid-area: l2;
-  }
-}
-@media (min-width: 768px) {
-  footer #l3 {
-    grid-area: l3;
-  }
-}
-@media (min-width: 768px) {
-  footer #l4 {
-    grid-area: l4;
-  }
-}
-@media (min-width: 768px) {
-  footer #l5 {
-    grid-area: l5;
-  }
-}
 /* =============
     Heros
 ============= */
@@ -445,7 +423,7 @@ footer .logos {
 }
 
 #hero-bottom {
-  background-color: #FFC600;
+  background-color: var(--yellow);
   padding-bottom: 10px;
   padding-top: 10px;
   padding-right: 76px;
@@ -515,7 +493,7 @@ footer .logos {
   display: flex;
   justify-content: space-between;
   list-style: none;
-  background-color: #E0DFD5;
+  background-color: var(--lightgray);
   padding-bottom: 24px;
   padding-left: 16px;
   padding-right: 16px;
@@ -541,7 +519,7 @@ footer .logos {
   }
 }
 .roster_gear > div ul button {
-  background-color: #FFC600;
+  background-color: var(--yellow);
   border: none;
   padding: 4px 24px;
   margin-top: 20px;
@@ -584,7 +562,7 @@ footer .logos {
 }
 .whats_new > div ul li {
   list-style: none;
-  background: #FFFFFF;
+  background: var(--white);
   box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
   padding-bottom: 24px;
   text-align: left;
@@ -593,7 +571,7 @@ footer .logos {
   margin: 0 16px;
 }
 .whats_new > div ul li button {
-  background-color: #FFC600;
+  background-color: var(--yellow);
   border: none;
   padding: 4px 24px;
   margin-top: 24px;

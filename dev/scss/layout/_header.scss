@@ -6,7 +6,7 @@ header{
     display: grid;
     grid-template-columns: 16px auto 16px;
     grid-template-areas: ". header .";
-    background-color: #07294D;
+    background-color: var(--navy);
     text-align: center;
 
     @include md{

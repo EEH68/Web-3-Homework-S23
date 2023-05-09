@@ -14,27 +14,27 @@ footer{
     "l3 l4 l5";
     }
 
-    #l1{
-        @include md{
-        grid-area: l1;}
-    }
-    #l2{
-        @include md{
-        grid-area: l2;}
-    }
-    #l3{
-        @include md{
-        grid-area: l3;}
-    }
-    #l4{
-        @include md{
-        grid-area: l4;}
-    }
-    #l5{
-        @include md{
-            grid-area: l5;
-        }
-    }
+    // #l1{
+    //     @include md{
+    //     grid-area: l1;}
+    // }
+    // #l2{
+    //     @include md{
+    //     grid-area: l2;}
+    // }
+    // #l3{
+    //     @include md{
+    //     grid-area: l3;}
+    // }
+    // #l4{
+    //     @include md{
+    //     grid-area: l4;}
+    // }
+    // #l5{
+    //     @include md{
+    //         grid-area: l5;
+    //     }
+    // }
 
     .text{
 
