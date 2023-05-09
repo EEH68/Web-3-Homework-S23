@@ -405,13 +405,60 @@ header > div {
     Footer
 ============= */
 footer {
-  background-color: #07294D;
+  background-color: var(--navy);
+  padding-bottom: 16px;
 }
-footer .logos {
-  display: grid;
-  grid-template-columns: repeat(3 1fr);
-  grid-template-areas: "l1 . ." "l2 . l3" "l3 l4 l5";
+footer #logos ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 32px;
+  gap: 16px;
+  margin-left: -16px;
 }
+footer #text {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+}
+footer #text a {
+  color: var(--lightgray);
+}
+footer #socials {
+  margin-left: 16px;
+}
+footer #socials aside {
+  display: flex;
+  gap: 16px;
+}
+footer #socials p {
+  color: var(--lightgray);
+}
+footer #l1 {
+  width: 80px;
+  height: 80px;
+}
+footer #l2 {
+  width: 135px;
+  height: 35px;
+}
+footer #l3 {
+  width: 120px;
+  height: 40px;
+}
+footer #l4 {
+  width: 80px;
+  height: 75px;
+}
+footer #l5 {
+  width: 65px;
+  height: 65px;
+}
+footer #l6 {
+  width: 95px;
+  height: 25px;
+}
+
 /* =============
     Heros
 ============= */

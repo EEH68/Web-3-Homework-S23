@@ -3,44 +3,67 @@
 ============= */
 
 footer{
-    background-color: #07294D;
+    background-color: var(--navy);
+    padding-bottom: 16px;
 
-    .logos{
-    display: grid;
-    grid-template-columns: repeat(3 1fr);
-    grid-template-areas: 
-    "l1 . ."
-    "l2 . l3"
-    "l3 l4 l5";
+    #logos{
+        ul{
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            padding-top: 32px;
+            gap: 16px;
+            margin-left: -16px;
+            // li{}
+        }
     }
 
-    // #l1{
-    //     @include md{
-    //     grid-area: l1;}
-    // }
-    // #l2{
-    //     @include md{
-    //     grid-area: l2;}
-    // }
-    // #l3{
-    //     @include md{
-    //     grid-area: l3;}
-    // }
-    // #l4{
-    //     @include md{
-    //     grid-area: l4;}
-    // }
-    // #l5{
-    //     @include md{
-    //         grid-area: l5;
-    //     }
-    // }
-
-    .text{
-
+    #text{
+        margin-left: 16px;
+        display: flex;
+        flex-direction: column;
+            a{
+            color: var(--lightgray);
+            }
     }
     
-    .socials{
-
+    #socials{
+        margin-left: 16px;
+        aside{
+            display: flex;
+            gap: 16px;
+        }
+           
+            p{
+            color: var(--lightgray);
+            }
     }
+
+    #l1{
+        width: 80px;
+        height: 80px;
+    }
+    
+    #l2{
+        width: 135px;
+        height: 35px;
+    }
+    
+    #l3{
+        width: 120px;
+        height: 40px;
+    }
+
+    #l4{
+        width: 80px;
+        height: 75px;}
+
+    #l5{
+        width: 65px;
+        height: 65px;}
+
+    #l6{
+        width: 95px;
+        height: 25px;}
+
 }
