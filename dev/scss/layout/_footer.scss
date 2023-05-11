@@ -13,18 +13,29 @@ footer{
             flex-wrap: wrap;
             padding-top: 32px;
             gap: 16px;
-            margin-left: -16px;
+            margin-left: 16px;
+            margin-bottom: 16px;
             // li{}
         }
     }
 
     #text{
         margin-left: 16px;
-        display: flex;
-        flex-direction: column;
-            a{
-            color: var(--lightgray);
+
+        div{
+            li{
+                font-weight: 300;
+                font-size: 20px;
+                line-height: 30px;
             }
+            a:link, a:visited{
+                color: var(--lightgray);
+                &:hover, &:active{
+                color: var(--yellow);
+                text-decoration: none;    
+                }
+                }
+        }
     }
     
     #socials{
@@ -36,6 +47,9 @@ footer{
            
             p{
             color: var(--lightgray);
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 30px;
             }
     }
 

@@ -4,6 +4,10 @@
 
 #hero-top{
     text-align: center;
+    h1{
+        color: var(--navy);
+        font-size: 25px;
+    }
 }
 
 #img{
@@ -13,10 +17,14 @@
 
 #hero-bottom{
     background-color: var(--yellow);
-    // padding-bottom: 10px;
-    // padding-top: 10px;
-    // padding-right: 76px;
     padding-left: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    h1{
+        font-size: 25px;
+        line-height: 20px;
+        color: var(--navy);
+    }
 
     @include md{
         display: grid;
@@ -27,24 +35,19 @@
     }
 
     >div{
-        display: grid;
-        grid-template-columns: 90% 10%;
+       display: flex;
+    
+        i{
+            width: 10px;
+            height: 6px;
+            padding-left: 100px;
+            padding-top: 35px;
+            color: var(--navy);
+        }
+        
         @include md{
             display: flex;
             grid-area: herobottom;
-        }
-
-        i{
-            font-size: 35px;
-            padding-top: 50px;
-           
-            @include md{
-            padding-right: 50px;
-            // padding-top: 50px;
-            }
-            @include lg{
-                padding-right: 90px;
-            }
         }
 
         aside{

@@ -7,8 +7,14 @@
     >div{
 
        #news-header{
-        @include md{
             margin-left: 16px;
+            margin-bottom: 8px;
+            h1{
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                color:var(--newsgray)
+            }
         }
 
         @include xl{
@@ -22,6 +28,19 @@
         padding: 0;
         display: grid;
         gap: 24px;
+        h2{
+            font-weight: 500;
+            font-size: 27px;
+            line-height: 30px;
+            color: var(--navy);
+        }
+        p{
+            font-style: normal;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 20px;
+            color: var(--navy);
+        }
 
     @include md{
         grid-template-columns: repeat(4, 1fr);
@@ -58,6 +77,10 @@
                 border: none;
                 padding: 4px 24px;
                 margin-top: 24px;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 21px;
+                color: var(--navy);
             }
         }
 
@@ -88,7 +111,7 @@
         }  
     }
     }
-}
+
 
             
     
