@@ -487,6 +487,11 @@ footer #l6 {
   color: var(--navy);
   font-size: 25px;
 }
+@media (min-width: 768px) {
+  #hero-top h1 {
+    font-size: 45px;
+  }
+}
 
 #img {
   line-height: 0px;
@@ -506,10 +511,7 @@ footer #l6 {
 }
 @media (min-width: 768px) {
   #hero-bottom {
-    display: grid;
-    grid-template-columns: 33% auto 33%;
-    grid-template-areas: ". herobottom .";
-    padding-left: 0px;
+    text-align: center;
   }
 }
 #hero-bottom > div {
@@ -523,9 +525,8 @@ footer #l6 {
   color: var(--navy);
 }
 @media (min-width: 768px) {
-  #hero-bottom > div {
-    display: flex;
-    grid-area: herobottom;
+  #hero-bottom > div i {
+    text-align: center;
   }
 }
 #hero-bottom > div aside {

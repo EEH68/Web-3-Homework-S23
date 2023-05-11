@@ -7,7 +7,12 @@
     h1{
         color: var(--navy);
         font-size: 25px;
+
+        @include md{
+            font-size: 45px;
+        }
     }
+
 }
 
 #img{
@@ -27,11 +32,7 @@
     }
 
     @include md{
-        display: grid;
-        grid-template-columns: 33% auto 33%;
-        grid-template-areas: ". herobottom .";
-        padding-left: 0px;
-
+       text-align: center;
     }
 
     >div{
@@ -43,12 +44,13 @@
             padding-left: 100px;
             padding-top: 35px;
             color: var(--navy);
+            @include md{
+                text-align: center;
+                // padding-left: 0px;
+                // padding-top: 55px;
+            }
         }
         
-        @include md{
-            display: flex;
-            grid-area: herobottom;
-        }
 
         aside{
         font-size: 15px;
