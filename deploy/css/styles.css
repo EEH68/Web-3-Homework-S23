@@ -460,6 +460,11 @@ footer #l6 {
   text-align: center;
 }
 
+#img {
+  line-height: 0px;
+  display: block;
+}
+
 #hero-bottom {
   background-color: var(--yellow);
   padding-left: 16px;
@@ -506,6 +511,10 @@ footer #l6 {
   margin: 0;
   padding: 0;
   display: grid;
+}
+#photos > div ul #img {
+  line-height: 0px;
+  display: block;
 }
 @media (min-width: 768px) {
   #photos > div ul {
