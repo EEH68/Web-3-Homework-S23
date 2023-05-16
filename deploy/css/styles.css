@@ -531,9 +531,7 @@ footer #l6 {
 }
 @media (min-width: 768px) {
   #hero-bottom > div aside {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: ". YR ARW";
+    justify-content: center;
   }
 }
 #hero-bottom i {

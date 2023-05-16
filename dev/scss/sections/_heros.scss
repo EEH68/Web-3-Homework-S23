@@ -47,10 +47,8 @@
         aside{
             display: flex;
             @include md{
-                display: grid;
-                grid-template-columns: repeat(3, 1fr);
-                grid-template-areas:
-                ". YR ARW";
+                justify-content: center;
+
         }
         }
     }  
@@ -60,10 +58,7 @@
             padding-left: 10px;
             padding-top: 10px;
             color: var(--navy);
-            @include md{
-            // padding-right: 300px;
-            // padding-left: 0px
-            }
+    
             @include lg{
                 font-size: 25px;
             }
