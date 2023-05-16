@@ -35,7 +35,17 @@
                     font-weight: 400;
                     font-size: 26px;
                     line-height: 30px;
-                    color:var(--navy)
+                    color:var(--navy);
+
+                    @include md{
+                        font-size: 28px;
+                        line-height: 30px;
+                    }
+
+                    @include lg{
+                        font-size: 31px;
+                        line-height: 30px;
+                    }
                 }
                 button{
                     background-color: var(--yellow);
@@ -45,6 +55,13 @@
                     font-weight: 400;
                     font-size: 14px;
                     line-height: 21px;
+                    @include md{
+                    
+                    }
+
+                    @include lg{
+                    font-size: 18px;
+                    }
                 }
 
                 @include md{

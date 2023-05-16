@@ -10,9 +10,12 @@
 
         @include md{
             font-size: 45px;
+
+        @include lg{
+            font-size: 55px;
+        }
         }
     }
-
 }
 
 #img{
@@ -25,40 +28,59 @@
     padding-left: 16px;
     padding-top: 8px;
     padding-bottom: 8px;
+    @include md{
+        text-align: center;
+        padding-left: 0px;
+    }
     h1{
         font-size: 25px;
-        line-height: 20px;
+        line-height: 5px;
         color: var(--navy);
-    }
 
-    @include md{
-       text-align: center;
+        @include lg{
+        font-size: 35px;
+        line-height: 5px;
+        }
     }
-
-    >div{
-       display: flex;
     
+    >div{
+        aside{
+            display: flex;
+            @include md{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-areas:
+                ". YR ARW";
+        }
+        }
+    }  
+
         i{
-            width: 10px;
-            height: 6px;
-            padding-left: 100px;
-            padding-top: 35px;
+            font-size: 20px;
+            padding-left: 10px;
+            padding-top: 10px;
             color: var(--navy);
             @include md{
-                text-align: center;
-                // padding-left: 0px;
-                // padding-top: 55px;
+            // padding-right: 300px;
+            // padding-left: 0px
+            }
+            @include lg{
+                font-size: 25px;
             }
         }
-        
 
-        aside{
-        font-size: 15px;
-        @include md{
-            // font-size: 20px;
-        }
-        }
-        
-    
+        #MRS{
+            @include md{
+                grid-area: MRS;}
+            }
+        #YR{
+            @include md{
+                grid-area: YR;}
+            }
+        #ARW{
+            @include md{
+                grid-area: ARW;}
+            }
+
+
     }
-}

@@ -13,7 +13,17 @@
                 font-weight: 400;
                 font-size: 20px;
                 line-height: 30px;
-                color:var(--newsgray)
+                color:var(--newsgray);
+
+                @include md{
+                    font-size: 28px;
+                    line-height: 41px;
+                }
+
+                @include lg{
+                    font-size: 37px;
+                    line-height: 55px;
+                }
             }
         }
 
