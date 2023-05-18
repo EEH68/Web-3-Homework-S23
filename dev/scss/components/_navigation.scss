@@ -1,3 +1,25 @@
 /* =============
     Navigation
 ============= */
+html{
+    scroll-behavior: smooth;
+}
+
+.showmenu{
+    display: block !important;
+}
+
+nav{
+    display: none;
+    ul{
+        li{
+            text-align: right;
+                a:link, a:visited{
+                    display: inline-block;
+                    color: var(--yellow) ;
+                    padding: 16px 0 16px;   
+                }
+
+        }
+    }
+}

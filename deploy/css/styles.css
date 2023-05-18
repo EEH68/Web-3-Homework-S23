@@ -373,6 +373,11 @@ body {
 /* =============
     Buttons
 ============= */
+button {
+  margin: 0;
+  padding: 0;
+}
+
 /* =============
     Forms
 ============= */
@@ -394,18 +399,69 @@ textarea {
 /* =============
     Navigation
 ============= */
+html {
+  scroll-behavior: smooth;
+}
+
+.showmenu {
+  display: block !important;
+}
+
+nav {
+  display: none;
+}
+nav ul li {
+  text-align: right;
+}
+nav ul li a:link, nav ul li a:visited {
+  display: inline-block;
+  color: var(--yellow);
+  padding: 16px 0 16px;
+}
+
 /* =============
     Header
 ============= */
 header {
   background-color: var(--navy);
-  text-align: center;
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-template-areas: "logo burger" "nav nav";
+  padding-left: 16px;
+  padding-right: 16px;
+  position: fixed;
+  width: 100%;
+  box-sizing: border-box;
 }
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
   header {
-    text-align: left;
-    padding-left: 20px;
+    grid-template-areas: "logo nav";
   }
+}
+header #logo {
+  grid-area: logo;
+  display: flex;
+  align-items: center;
+}
+header #burger-container {
+  grid-area: burger;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+@media (min-width: 1024px) {
+  header #burger-container {
+    display: none;
+  }
+}
+header #burger-container button {
+  border: none;
+  background-color: transparent;
+  color: var(--yellow);
+  font-size: 20px;
+}
+header nav {
+  grid-area: nav;
 }
 
 /* =============
@@ -481,6 +537,7 @@ footer #l6 {
     Heros
 ============= */
 #hero-top {
+  padding-top: 130px;
   text-align: center;
 }
 #hero-top h1 {
@@ -598,7 +655,10 @@ footer #l6 {
 /* ===================
     Roster & Gear
 ====================== */
-.roster_gear > div ul {
+#roster_gear {
+  scroll-margin: 400px;
+}
+#roster_gear > div ul {
   margin-top: 24px;
   margin-bottom: 24px;
   padding: 0;
@@ -606,18 +666,18 @@ footer #l6 {
   gap: 16px;
 }
 @media (min-width: 768px) {
-  .roster_gear > div ul {
+  #roster_gear > div ul {
     grid-template-columns: 50% 50%;
     gap: 0px;
   }
 }
 @media (min-width: 1200px) {
-  .roster_gear > div ul {
+  #roster_gear > div ul {
     margin-left: 225px;
     margin-right: 225px;
   }
 }
-.roster_gear > div ul li {
+#roster_gear > div ul li {
   display: flex;
   justify-content: space-between;
   list-style: none;
@@ -627,25 +687,25 @@ footer #l6 {
   padding-left: 16px;
   padding-right: 16px;
 }
-.roster_gear > div ul li h1 {
+#roster_gear > div ul li h1 {
   font-weight: 400;
   font-size: 26px;
   line-height: 30px;
   color: var(--navy);
 }
 @media (min-width: 768px) {
-  .roster_gear > div ul li h1 {
+  #roster_gear > div ul li h1 {
     font-size: 28px;
     line-height: 30px;
   }
 }
 @media (min-width: 1024px) {
-  .roster_gear > div ul li h1 {
+  #roster_gear > div ul li h1 {
     font-size: 31px;
     line-height: 30px;
   }
 }
-.roster_gear > div ul li button {
+#roster_gear > div ul li button {
   background-color: var(--yellow);
   border: none;
   padding: 4px 24px;
@@ -655,12 +715,12 @@ footer #l6 {
   line-height: 21px;
 }
 @media (min-width: 1024px) {
-  .roster_gear > div ul li button {
+  #roster_gear > div ul li button {
     font-size: 18px;
   }
 }
 @media (min-width: 768px) {
-  .roster_gear > div ul li {
+  #roster_gear > div ul li {
     margin-top: 30px;
     margin-right: 16px;
     margin-left: 16px;
@@ -670,12 +730,12 @@ footer #l6 {
   }
 }
 @media (min-width: 1200px) {
-  .roster_gear > div ul #s1 {
+  #roster_gear > div ul #s1 {
     grid-area: s1;
   }
 }
 @media (min-width: 1200px) {
-  .roster_gear > div ul #s2 {
+  #roster_gear > div ul #s2 {
     grid-area: s2;
   }
 }
@@ -683,47 +743,50 @@ footer #l6 {
 /* =============
     Whats New
 ============= */
-.whats_new > div #news-header {
+#whats_new {
+  scroll-margin: 400px;
+}
+#whats_new > div #news-header {
   margin-left: 16px;
   margin-bottom: 8px;
 }
-.whats_new > div #news-header h1 {
+#whats_new > div #news-header h1 {
   font-weight: 400;
   font-size: 20px;
   line-height: 30px;
   color: var(--newsgray);
 }
 @media (min-width: 768px) {
-  .whats_new > div #news-header h1 {
+  #whats_new > div #news-header h1 {
     font-size: 28px;
     line-height: 41px;
   }
 }
 @media (min-width: 1024px) {
-  .whats_new > div #news-header h1 {
+  #whats_new > div #news-header h1 {
     font-size: 37px;
     line-height: 55px;
   }
 }
 @media (min-width: 1200px) {
-  .whats_new > div {
+  #whats_new > div {
     margin-top: 50px;
     margin-bottom: 16px;
   }
 }
-.whats_new ul {
+#whats_new ul {
   margin: 0;
   padding: 0;
   display: grid;
   gap: 24px;
 }
-.whats_new ul h2 {
+#whats_new ul h2 {
   font-weight: 500;
   font-size: 27px;
   line-height: 30px;
   color: var(--navy);
 }
-.whats_new ul p {
+#whats_new ul p {
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
@@ -731,13 +794,13 @@ footer #l6 {
   color: var(--navy);
 }
 @media (min-width: 768px) {
-  .whats_new ul {
+  #whats_new ul {
     grid-template-columns: repeat(4, 1fr);
     grid-template-areas: "n1 n1 n2 n2" "n3 n3 n4 n4" ". n5 n5 .";
   }
 }
 @media (min-width: 1200px) {
-  .whats_new ul {
+  #whats_new ul {
     grid-template-columns: repeat(6, 1fr);
     grid-template-areas: "n1 n1 n2 n2 n3 n3" ". n4 n4 n5 n5 .";
     margin-left: 225px;
@@ -745,17 +808,17 @@ footer #l6 {
     margin-bottom: 50px;
   }
 }
-.whats_new ul li {
+#whats_new ul li {
   list-style: none;
   background: var(--white);
   box-shadow: 0px 1px 1px rgba(42, 48, 54, 0.3);
   padding-bottom: 24px;
   text-align: left;
 }
-.whats_new ul li > aside {
+#whats_new ul li > aside {
   margin: 0 16px;
 }
-.whats_new ul li button {
+#whats_new ul li button {
   background-color: var(--yellow);
   border: none;
   padding: 4px 24px;
@@ -766,27 +829,27 @@ footer #l6 {
   color: var(--navy);
 }
 @media (min-width: 768px) {
-  .whats_new ul #n1 {
+  #whats_new ul #n1 {
     grid-area: n1;
   }
 }
 @media (min-width: 768px) {
-  .whats_new ul #n2 {
+  #whats_new ul #n2 {
     grid-area: n2;
   }
 }
 @media (min-width: 768px) {
-  .whats_new ul #n3 {
+  #whats_new ul #n3 {
     grid-area: n3;
   }
 }
 @media (min-width: 768px) {
-  .whats_new ul #n4 {
+  #whats_new ul #n4 {
     grid-area: n4;
   }
 }
 @media (min-width: 768px) {
-  .whats_new ul #n5 {
+  #whats_new ul #n5 {
     grid-area: n5;
   }
 }

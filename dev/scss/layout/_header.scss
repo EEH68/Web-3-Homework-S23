@@ -4,10 +4,53 @@
 
 header{
     background-color: var(--navy);
-    text-align: center;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-areas:
+    "logo burger"
+    "nav nav";
+    padding-left: 16px;
+    padding-right: 16px;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
 
-    @include md{
-        text-align:left;
-        padding-left: 20px;
+    @include lg{
+        grid-template-areas: "logo nav";
     }
+
+    #logo{
+        grid-area: logo;
+        display: flex;
+        align-items: center;
+    }
+
+    #burger-container{
+        grid-area: burger;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        @include lg{
+            display: none;
+        }
+        button{
+            border: none;
+            background-color: transparent;
+            color: var(--yellow);
+            font-size: 20px;
+        }
+    }
+
+    nav{
+        grid-area: nav;
+    }
+
+    
+    // text-align: center;
+
+    // @include md{
+    //     text-align:left;
+    //     padding-left: 20px;
+    // }
 }
